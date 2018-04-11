@@ -132,7 +132,7 @@
 			ctx.beginPath()
 			ctx.moveTo(k,-Yscale[pos]/scaley)
 			ctx.lineTo(k+1,-Yscale[pos+1]/scaley)
-			ctx.strokeStyle = '#000000'
+			ctx.strokeStyle = Colour
 			ctx.stroke();
 			pos=pos+1
 			k=k+1;
