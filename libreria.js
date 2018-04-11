@@ -7,7 +7,7 @@
 			I=[-10,10] ;
 		}
 		if (canvas_size === undefined) {
-          canvas_size = [100,100];
+          canvas_size = [500,500];
 		} 		
 
 		if (Colour === undefined) {
@@ -30,8 +30,10 @@
 			Y=CreateVectorFunctionY(I,f)
 			GraphFunctionVectors (X,Y)
 		}
-		if (Axis === undefined) || (Axis == 1) {
+		if (Axis === undefined) {
           Axis = 1
+		} 
+		if (Axis == 1) {
 		  drawaxis(I)
 		} 
 		
