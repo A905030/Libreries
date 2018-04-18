@@ -2,7 +2,7 @@
 		var p = document.currentScript
 		var c = document.createElement("canvas")
 		p.body.appendChild(c)
-</canvas>
+		
 		var ctx = c.getContext("2d");
 
 		if (I === undefined) {
