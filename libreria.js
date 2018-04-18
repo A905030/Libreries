@@ -1,6 +1,7 @@
 	function Draw(f, ArrayPointsX, ArrayPointsY, I, canvas_size, Axis, Colour){
+		document.currentScript
+		var c = document.createElement("CANVAS")
 
-		var c = document.getElementById("myCanvas");
 		var ctx = c.getContext("2d");
 
 		if (I === undefined) {
@@ -36,6 +37,7 @@
 		if (Axis == 1) {
 		  drawaxis(I)
 		} 
+		
 		
 		
 	}
@@ -100,7 +102,7 @@
     ctx.beginPath();
     ctx.moveTo(y_axis["x"],y_axis["y"]);
     ctx.lineTo(y_axis["xf"],y_axis["yf"]);
-    ctx.stroke();
+    ctx.strokeStyle = '#0000000';
     ctx.closePath();
 	ctx.restore();
 	}
@@ -138,4 +140,5 @@
 			k=k+1;
 			
 			}
+			
 			}
