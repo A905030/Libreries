@@ -2,6 +2,8 @@
 		var p = document.currentScript
 		var c = document.createElement("CANVAS")
 		p.appendChild(c)
+		<canvas style="border:1px solid #000000;">
+</canvas>
 		var ctx = c.getContext("2d");
 
 		if (I === undefined) {
