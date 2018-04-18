@@ -1,8 +1,7 @@
 	function Draw(f, ArrayPointsX, ArrayPointsY, I, canvas_size, Axis, Colour){
 		var p = document.currentScript
-		var c = document.createElement("CANVAS")
-		p.appendChild(c)
-		<canvas style="border:1px solid #000000;">
+		var c = document.createElement("canvas")
+		p.body.appendChild(c)
 </canvas>
 		var ctx = c.getContext("2d");
 
